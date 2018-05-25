@@ -69,7 +69,7 @@ function total() {
   var total=0,item
   for(i=0;i<cart.length;i++)
   {
-    total=total + 
+    total=total + etCart().
   }
 }
 
