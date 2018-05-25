@@ -70,7 +70,7 @@ function total() {
   total1=0
   for(i=0;i<cart.length;i++)
   {
-    total1=total1 + getCart().itemPrice[i]
+    total1=total1 + getCart()[i].itemPrice
   }
   return total1
 }
