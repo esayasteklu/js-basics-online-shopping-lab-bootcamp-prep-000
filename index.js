@@ -76,11 +76,13 @@ function total() {
 }
 
 function removeFromCart(item) {
+  var s=0
   for(i=0;i<cart.length;i++)
   {
     if (getCart()[i].itemName===item)
     {
-      
+      s=1
+      getcart().splice(i, 1);
     }
   }
 }
