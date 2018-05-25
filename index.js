@@ -66,11 +66,12 @@ function viewCart()
 
 }
 function total() {
-  var total=0,item
+  var total1=0,item
   for(i=0;i<cart.length;i++)
   {
-    total=total + etCart().
+    total1=total1 + getCart().itemPrice[i]
   }
+  return total1
 }
 
 function removeFromCart(item) {
