@@ -66,7 +66,8 @@ function viewCart()
 
 }
 function total() {
-  var total1=0,i
+  var total1,i
+  total1=0
   for(i=0;i<cart.length;i++)
   {
     total1=total1 + getCart().itemPrice[i]
