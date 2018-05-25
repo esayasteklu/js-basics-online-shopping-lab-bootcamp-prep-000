@@ -82,9 +82,16 @@ function removeFromCart(item) {
     if (getCart()[i].itemName===item)
     {
       s=1
-      getcart().splice(i, 1);
+      return getcart().splice(i, 1);
     }
   }
+  
+  if (s===0)
+  {
+    return That item is not in your cart.
+  }
+  
+  
 }
 
 function placeOrder(cardNumber) {
