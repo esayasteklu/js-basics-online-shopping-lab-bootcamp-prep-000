@@ -83,7 +83,7 @@ function removeFromCart(item)
     if (getCart()[i].itemName===item)
     {
       s=1
-      return getcart().splice(i, 1);
+      return getCart().splice(i, 1);
     }
   }
   
