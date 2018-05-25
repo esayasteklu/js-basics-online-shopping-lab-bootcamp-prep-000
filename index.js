@@ -75,7 +75,8 @@ function total() {
   return total1
 }
 
-function removeFromCart(item) {
+function removeFromCart(item)
+{
   var s=0
   for(i=0;i<cart.length;i++)
   {
@@ -88,7 +89,7 @@ function removeFromCart(item) {
   
   if (s===0)
   {
-    return That item is not in your cart.
+    return "That item is not in your cart."
   }
   
   
