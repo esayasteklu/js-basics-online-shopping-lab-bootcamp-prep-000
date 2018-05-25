@@ -77,7 +77,7 @@ function total() {
 
 function removeFromCart(item)
 {
-  var s=0
+  var s=0,i
   for(i=0;i<cart.length;i++)
   {
     if (getCart()[i].itemName===item)
